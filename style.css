@@ -1,4 +1,6 @@
 body {
   margin: 0% 36%;
-  background: stars.jpg;
+  background-image: url("stars.jpg");
+  
+  color: #FFFFFF
 }
