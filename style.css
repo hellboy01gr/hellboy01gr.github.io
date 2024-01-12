@@ -1,6 +1,30 @@
 body {
-  margin: 0% 36%;
-  background-image: url("stars.jpg");
-  
-  color: #FFFFFF
+    background-image: url("stars.jpg");
+    background-repeat: repeat;
+    
+    color: #FFFFFF;
+    font-family: "Times New Roman";
+}
+
+.body {
+    margin-left: 20%;
+    text-align: center;
+}
+ 
+.side {
+    width: 20%;
+    text-align: center;
+
+    background-color: #111111;
+}
+
+.item {
+    color: red;
+}
+
+.text {
+    width: 75%;
+    margin-left: 12%;
+
+    background-color: black;
 }
