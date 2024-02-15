@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Hellboy01gr</title>
-</head>
+    <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hellboy01gr</title>
+    </head>
 
-<body>
+    <body>
 
-    <div class="side">
-        <h2 style="color: blue;">See also</h2>
-        <a href="index.html" class="item">Main</a>
-        <a href="projects.html" class="item">Projects</a>
-    </div>
-
-    <div class="projects">
-        <h1>Projects:</h1>
-        <div class="block" onclick="location.href='CursorTester/index.html';" style="cursor: pointer;">
-            <h3>Cursor Style testing</h3>
+        <div class="side">
+            <h2 style="color: blue;">See also</h2>
+            <a href="index.html" class="item">Home</a>
+            <a href="projects.html" class="item">Projects</a>
         </div>
-    </div>
 
-    
-</body>
+        <div class="projects">
+            <h1>Projects:</h1>
+            <div class="block" onclick="location.href='CursorTester/index.html';" style="cursor: pointer;">
+                <p>Cursor theme testing</p>
+                <img src="animouse.gif" style="width: 200px;">
+            </div>
+            <div class="block" onclick="location.href='planets.html';" style="cursor: pointer;">
+                <p>Planets</p>
+                <img src="earth5.gif" style="width: 125px;">
+            </div>
+        </div>
+
+        <div id="bvw">
+            <p>This page is best viewed with:</p>
+            <img src="netscape1.gif" width="120px" href="index.html">
+            <img src="ie_animated.gif" width="120px" href="index.html">
+        </div>
+        
+        <style>
+            #bvw {
+                font-family: "MS PGothic", "MS Gothic", monospace;
+                height: 60px;
+                position: relative;
+                margin-top: 29%;
+                text-align: center;
+                image-rendering: crisp-edges;
+            }  
+        </style>
+        
+    </body>
 </html>

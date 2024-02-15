@@ -29,6 +29,11 @@ button {
 	border-radius: 4px;
 	width: 420px;
 	cursor: pointer;
+	transition: background 150ms ease-in-out 50ms;
+}
+
+button:hover {
+	background: rgb(30, 30, 30);
 }
 
 .grid {
